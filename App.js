@@ -6,6 +6,8 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { WebView } from 'react-native-webview';
 const Stack = createNativeStackNavigator();
 
+const InjectedJS_URL = "https://github.com/IsmaCortGtz/Radar-Doppler/blob/master/assets/radar-webview-injectedJS.js";
+
 export default function App() {
   return (
     <NavigationContainer>
@@ -36,7 +38,7 @@ function Mapa({ InjectedJS }){
 function Main(){
   
   const [InjectedJS, setInjectedJS] = useState("");
-  fetch("https://raw.githubusercontent.com/IsmaCortGtz/Radar-Doppler/master/radar-webview-injectedJS.js")
+  fetch(InjectedJS_URL)
     .then(result => result.text())
     .then(text => setInjectedJS(text));
   
