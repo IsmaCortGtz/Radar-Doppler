@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "radar-doppler",
+    "name": "Radar Doppler",
     "slug": "radar-doppler",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -9,7 +9,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#FFFFFF"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -18,16 +18,17 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "com.ismacortgtz.radardoppler",
+      "buildNumber": "1.0.0",
       "supportsTablet": true
     },
     "android": {
+      "package": "com.ismacortgtz.radardoppler",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "backgroundColor": "#B80330"
       }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
     }
   }
 }
