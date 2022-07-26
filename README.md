@@ -2,7 +2,7 @@
 
 A React Native app that show the info for the UDG's Doppler Radar.
 
-Created by [Expo](https://docs.expo.dev/)
+Created with [Expo](https://docs.expo.dev/)
 
 ## Getting Started
 ### Prerequisites
